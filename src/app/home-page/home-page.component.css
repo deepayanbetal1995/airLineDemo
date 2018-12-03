@@ -1,0 +1,70 @@
+.externalDiv{
+
+    background-image: url("assets/image/airline.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.innerDiv{
+
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 20%;
+    /* text-align: center; */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    display: flex;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.topnav-right{
+
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.innerDiv{
+    position: relative;
+}
+.topnav-left{
+
+    /* position:relative; */
+    /* bottom:150px; */
+    float: right;
+    position: absolute;
+    padding-left: 250px;
+}
